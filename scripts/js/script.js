@@ -59,10 +59,10 @@ console.log("In the " + place + " under the " + specificPlace + " " + char1 + ",
 console.log("'Who wants to grab it?' " + char2 + " whispered, " + action1 + " the " + object2 + ".");
 
 console.log(char1 + " " + action2 + ", then " + action3 + " and said, 'I'll do it... but if I disappear, you’re paying for my funeral.'");
+//renames var; no let
+object = "lock";
 
-let object1Again = "lock";
-
-console.log("The " + object1Again + " clicked, and the " + object + " opened, revealing a " + object3 +
+console.log("The " + object + " clicked, and the " + object + " opened, revealing a " + object3 +
     " with a single line scribbled inside: " + quote);
 
 console.log("A chill ran through them as the wind stirred. " + char3 + " " + action4 + " and muttered, 'Maybe we should just put it back?'");
